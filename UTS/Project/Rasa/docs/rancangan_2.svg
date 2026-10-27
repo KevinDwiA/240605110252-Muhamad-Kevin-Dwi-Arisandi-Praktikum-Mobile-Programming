@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="210" height="410" preserveAspectRatio="xMinYMin meet" viewBox="0 0 210 410" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="210" height="410"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-410)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="210" height="410" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,98%,95%); fill-rule: evenodd;"/>
+			<text x="14" y="390" style="font-family: Helvetica; font-size: 8px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,780) scale(1,-1)">09:41</text>
+			<text x="14" y="361" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(71%,26%,13%); stroke:none;" transform="translate(0,722) scale(1,-1)">Cari resep</text>
+			<rect x="12" y="305" width="186" height="32" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,89%,82%); fill-rule: evenodd;"/>
+			<text x="21" y="317" style="font-family: Helvetica; font-size: 10px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,634) scale(1,-1)">Cari nama resep...</text>
+			<rect x="12" y="164" width="89" height="124" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="12" y="207" width="89" height="81" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,89%,82%); fill-rule: evenodd;"/>
+			<text x="32" y="244" style="font-family: Helvetica; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,488) scale(1,-1)">Foto API</text>
+			<text x="20" y="188" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,376) scale(1,-1)">Nama resep</text>
+			<text x="20" y="173" style="font-family: Helvetica; font-size: 8px;fill: rgb(71%,26%,13%); stroke:none;" transform="translate(0,346) scale(1,-1)">Lihat resep</text>
+			<rect x="108" y="164" width="89" height="124" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="108" y="207" width="89" height="81" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,89%,82%); fill-rule: evenodd;"/>
+			<text x="128" y="244" style="font-family: Helvetica; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,488) scale(1,-1)">Foto API</text>
+			<text x="116" y="188" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,376) scale(1,-1)">Nama resep</text>
+			<text x="116" y="173" style="font-family: Helvetica; font-size: 8px;fill: rgb(71%,26%,13%); stroke:none;" transform="translate(0,346) scale(1,-1)">Lihat resep</text>
+			<rect x="12" y="25" width="89" height="124" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="12" y="68" width="89" height="81" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,89%,82%); fill-rule: evenodd;"/>
+			<text x="32" y="105" style="font-family: Helvetica; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,210) scale(1,-1)">Foto API</text>
+			<text x="20" y="49" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,98) scale(1,-1)">Nama resep</text>
+			<text x="20" y="34" style="font-family: Helvetica; font-size: 8px;fill: rgb(71%,26%,13%); stroke:none;" transform="translate(0,68) scale(1,-1)">Lihat resep</text>
+			<rect x="108" y="25" width="89" height="124" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="108" y="68" width="89" height="81" rx="10" ry="0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(95%,89%,82%); fill-rule: evenodd;"/>
+			<text x="128" y="105" style="font-family: Helvetica; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,210) scale(1,-1)">Foto API</text>
+			<text x="116" y="49" style="font-family: Helvetica-Bold; font-size: 9px;fill: rgb(20%,24%,22%); stroke:none;" transform="translate(0,98) scale(1,-1)">Nama resep</text>
+			<text x="116" y="34" style="font-family: Helvetica; font-size: 8px;fill: rgb(71%,26%,13%); stroke:none;" transform="translate(0,68) scale(1,-1)">Lihat resep</text>
+		</g>
+	</g>
+</svg>
