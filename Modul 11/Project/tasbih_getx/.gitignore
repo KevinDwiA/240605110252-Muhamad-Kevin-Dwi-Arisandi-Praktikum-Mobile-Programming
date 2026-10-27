@@ -1,0 +1,23 @@
+# Cache dan hasil build Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+coverage/
+# IDE dan konfigurasi mesin lokal
+.idea/
+*.iml
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+**/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+# Penandatanganan dan OS
+**/key.properties
+*.jks
+*.keystore
+.DS_Store
+Thumbs.db
