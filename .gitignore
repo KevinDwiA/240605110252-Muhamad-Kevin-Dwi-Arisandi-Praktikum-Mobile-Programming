@@ -1,0 +1,24 @@
+# Flutter / Dart generated files
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/coverage/
+# Local IDE and platform caches
+**/.idea/
+**/*.iml
+**/.gradle/
+**/local.properties
+**/Pods/
+**/.symlinks/
+**/Flutter/ephemeral/
+**/flutter/ephemeral/
+# Local signing and secrets
+**/key.properties
+**/*.jks
+**/*.keystore
+**/.env
+# OS files
+.DS_Store
+Thumbs.db
