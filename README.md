@@ -24,13 +24,13 @@ Kode sumber untuk **20 project** dan laporan PDF Modul 01–11 serta UTS telah d
 | [Modul 09](Modul%2009/) | StatefulWidget dan setState | [counter_app](Modul%2009/Project/counter_app/), [tasbih_digital](Modul%2009/Project/tasbih_digital/) | [PDF](Modul%2009/Laporan_Praktikum_Modul_9_Kevin.pdf) | Project dan laporan diunggah |
 | [Modul 10](Modul%2010/) | HTTP API dan Model Data | [game_app](Modul%2010/Project/game_app/) | [PDF](Modul%2010/Laporan_Praktikum_Modul_10_Kevin.pdf) | Project dan laporan diunggah |
 | [Modul 11](Modul%2011/) | Manajemen State GetX | [tasbih_getx](Modul%2011/Project/tasbih_getx/) | [PDF](Modul%2011/Laporan_Praktikum_Modul_11_Kevin.pdf) | Project dan laporan diunggah |
-| [UTS](UTS/) | Rasa — Penjelajah Resep | [Rasa](UTS/Project/Rasa/) | [PDF](UTS/Project/Rasa/docs/Laporan_Rasa.pdf) | Project dan laporan diunggah |
+| [UTS](UTS/) | Rasa — Penjelajah Resep | [Rasa](UTS/Project/Rasa/) | [PDF](UTS/Laporan_UTS_Rasa_Kevin.pdf) | Project dan laporan diunggah |
 
 ## Susunan repository
 
 Setiap folder modul memuat laporan PDF dan folder `Project/`. Satu modul dapat memiliki beberapa project percobaan. README pada setiap project menjelaskan isi aplikasi, package dan aset, struktur kode, cara menjalankan, serta batasannya.
 
-Laporan UTS tersedia di `UTS/Project/Rasa/docs/Laporan_Rasa.pdf`.
+Laporan UTS tersedia di `UTS/Laporan_UTS_Rasa_Kevin.pdf`.
 
 ## Menjalankan project
 

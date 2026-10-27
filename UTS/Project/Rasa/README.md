@@ -42,3 +42,7 @@ Pilih perangkat yang sesuai dengan folder platform yang tersedia dan gunakan Flu
 ## Batasan
 
 Memerlukan internet. Isi resep mengikuti bahasa sumber API, terutama bahasa Inggris. Kode saat ini belum menerapkan Shared Preferences, SQLite, atau penyimpanan file; folder platform yang tersedia di repository adalah web.
+
+## Laporan
+
+Laporan PDF berada di folder UTS, sejajar dengan folder Project: [Laporan UTS Rasa](../../Laporan_UTS_Rasa_Kevin.pdf).
