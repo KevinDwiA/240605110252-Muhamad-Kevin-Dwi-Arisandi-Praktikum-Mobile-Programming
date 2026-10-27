@@ -1,17 +1,41 @@
 # tugas_modul_8
 
-A new Flutter project.
+**Nama:** Muhamad Kevin Dwi Arisandi  
+**NIM:** 240605110252  
+**Mata kuliah:** Praktikum Mobile Programming  
+**Materi:** Modul 08
 
-## Getting Started
+## Deskripsi
 
-This project is a starting point for a Flutter application.
+Implementasi tugas navigasi dengan argumen bertema informasi game. Data game ID 475 dimuat dari FreeToGame API, lalu kartu game membuka halaman detail melalui named route dengan objek ScreenArguments.
 
-A few resources to get you started if this is your first Flutter project:
+## Package dan aset
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Dependency tambahan: `http ^1.6.0`, `cupertino_icons ^1.0.8`.
+- Aset pubspec: tidak ada aset khusus yang dideklarasikan.
+- Batas versi Dart SDK: `^3.13.2`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur penting
+
+- [lib/home.dart](lib/home.dart)
+- [lib/main.dart](lib/main.dart)
+- [lib/screen_arguments.dart](lib/screen_arguments.dart)
+- [lib/tujuan.dart](lib/tujuan.dart)
+
+Folder yang tersedia: `lib/`, `test/`, `android/`, `web/`.
+
+## Menjalankan
+
+Buka terminal di folder project ini, yaitu folder yang berisi `pubspec.yaml`, kemudian jalankan:
+
+```bash
+flutter pub get
+flutter devices
+flutter run -t lib/main.dart
+```
+
+Pilih perangkat yang sesuai dengan folder platform yang tersedia dan gunakan Flutter SDK yang memenuhi batas versi Dart pada `pubspec.yaml`.
+
+## Batasan
+
+Memerlukan internet. Halaman detail menerima objek argumen dari Home; data dan gambar mengikuti respons API.

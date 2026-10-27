@@ -1,107 +1,44 @@
-# rasa. - Temukan rasa, ciptakan cerita.
-Aplikasi Flutter penjelajah resep dunia untuk UTS Mobile Programming.
-Tema baru pengganti TugasKu: foto makanan, warna terakota, hijau gelap, dan krem.
+# Rasa
 
-## Halaman
-1. Beranda: banner, kategori dari server, dan inspirasi resep ayam.
-2. Daftar / pencarian: grid responsif, cari resep dan daftar per kategori.
-3. Detail: gambar besar, kategori, negara/area, bahan beserta takaran, instruksi.
+**Nama:** Muhamad Kevin Dwi Arisandi  
+**NIM:** 240605110252  
+**Mata kuliah:** Praktikum Mobile Programming  
+**Materi:** UTS
 
-Navigator.push + MaterialPageRoute menghubungkan ketiganya. Kembali melalui AppBar.
-Kategori membuka daftar resep kategori; ikon cari membuka pencarian global.
-Pencarian dijalankan ketika tekan Enter/tombol cari, bukan setiap ketikan.
-Dalam kategori, pencarian menyaring nama pada hasil kategori dari API.
+## Deskripsi
 
-## API yang dipakai
-Penyedia: **TheMealDB** https://www.themealdb.com/api.php
-Dokumentasi: https://www.themealdb.com/docs_api_guide.php
-Base URL: https://www.themealdb.com/api/json/v1/1/
-Test key publik `1` diizinkan penyedia untuk pengembangan/pendidikan.
-Tidak perlu membuat backend PHP, database MySQL, akun, atau API key pribadi
-untuk tugas demonstrasi ini. Ketentuan publikasi app store berbeda; lihat penyedia.
+Rasa adalah aplikasi penjelajah resep menggunakan REST API TheMealDB. Fitur meliputi kategori makanan, pencarian nama resep, daftar resep per kategori, serta detail bahan dan instruksi memasak. FutureBuilder menampilkan proses pemuatan, dan halaman error menyediakan tombol coba lagi.
 
-| Endpoint GET | Penggunaan |
-| --- | --- |
-| categories.php | Kategori di beranda |
-| search.php?s=chicken | Inspirasi ayam pada beranda |
-| search.php?s=Arrabiata | Pencarian nama resep global |
-| filter.php?c=Seafood | Daftar resep per kategori |
-| lookup.php?i=52772 | Detail resep berdasarkan ID |
+## Package dan aset
 
-Semua data resep berasal dari respons HTTP, bukan dummy/JSON lokal. Internet wajib.
-Nama, bahan dan instruksi berbahasa Inggris mengikuti sumber API; UI berbahasa Indonesia.
-Foto serta resep diberi atribusi TheMealDB. Aplikasi tidak mengklaim resep buatan sendiri.
-API tidak menyediakan waktu masak atau kalori yang konsisten; aplikasi tidak mengarangnya.
-Aplikasi ini read-only: tidak menyediakan tambah/edit/hapus resep server.
+- Dependency tambahan: `http ^1.2.0`.
+- Aset pubspec: tidak ada aset khusus yang dideklarasikan.
+- Batas versi Dart SDK: `>=3.3.0 <4.0.0`.
 
-## Menyiapkan Windows (disarankan)
-Prasyarat: Flutter SDK dengan Dart >=3.3, ekstensi Flutter VS Code, Android SDK
-beserta emulator atau HP debugging. Koneksi internet untuk pub get dan API.
+## Struktur penting
 
-1. Ekstrak ZIP, buka folder **Rasa** (yang berisi setup.ps1).
-2. Buka terminal PowerShell, jalankan:
+- [lib/main.dart](lib/main.dart)
+- [lib/models/meal.dart](lib/models/meal.dart)
+- [lib/screens/home_screen.dart](lib/screens/home_screen.dart)
+- [lib/screens/meal_detail_screen.dart](lib/screens/meal_detail_screen.dart)
+- [lib/screens/meal_list_screen.dart](lib/screens/meal_list_screen.dart)
+- [lib/services/meal_api.dart](lib/services/meal_api.dart)
+- [lib/widgets/components.dart](lib/widgets/components.dart)
 
-```powershell
-flutter --version
-powershell -ExecutionPolicy Bypass -File .\setup.ps1
-```
+Folder yang tersedia: `lib/`, `web/`.
 
-3. Skrip membuat folder baru **rasa_app** di sebelah Rasa. Folder yang sudah ada
-   tidak ditimpa. Skrip membangkitkan platform Android/web, menyalin kode,
-   mengaktifkan izin INTERNET, lalu menjalankan pub get dan analyze.
-4. Pilih **File > Open Folder > rasa_app** di VS Code, kemudian:
+## Menjalankan
 
-```sh
-flutter devices
-flutter run
-```
+Buka terminal di folder project ini, yaitu folder yang berisi `pubspec.yaml`, kemudian jalankan:
 
-Atau `flutter run -d chrome` untuk web. Gunakan `Dart: Restart Analysis Server`
-jika editor masih menyimpan error lama setelah pub get berhasil.
-
-## Cara manual (semua OS)
-Dari dalam folder Rasa:
-```sh
-flutter create --project-name rasa --platforms=android,web .
+```bash
 flutter pub get
-flutter analyze
-flutter run
+flutter devices
+flutter run -t lib/main.dart
 ```
-Pertahankan lib dan pubspec.yaml dari paket ini. Hapus test/widget_test.dart
-contoh counter bila flutter create membuatnya (aplikasi ini tidak memakai counter).
-Untuk build Android release, tambahkan di android/app/src/main/AndroidManifest.xml,
-di dalam <manifest>, sejajar dengan <application>:
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-```
-Skrip Windows melakukan langkah izin ini secara otomatis.
 
-## Struktur kode
-- lib/main.dart: tema dan entry point RasaApp.
-- lib/models/meal.dart: mapping respons resep, bahan 1..20, kategori.
-- lib/services/meal_api.dart: HTTP GET, query URL, timeout 20 detik, decoding JSON.
-- lib/screens/: beranda, daftar/pencarian, detail.
-- lib/widgets/components.dart: kartu, gambar jaringan, error/retry, grid adaptif.
-- docs/: draf laporan, rancangan UI mandiri, checklist pengujian.
+Pilih perangkat yang sesuai dengan folder platform yang tersedia dan gunakan Flutter SDK yang memenuhi batas versi Dart pada `pubspec.yaml`.
 
-Future dibuat di initState dan diperbarui hanya saat submit/retry/refresh untuk
-menghindari request berulang pada setiap build. Tidak ada cache persisten.
-Respons meals:null dipetakan menjadi daftar kosong. Filter kategori memberikan
-ringkasan; detail selalu diambil kembali dengan lookup.php, bukan menampilkan
-ringkasan sebagai resep lengkap. Foto gagal dimuat diganti ikon restoran.
+## Batasan
 
-## Status verifikasi
-- Contoh respons pencarian, kategori, dan detail diperiksa melalui akses web.
-- Jalur impor lokal dan delimiter kode diperiksa secara statis.
-- Flutter SDK tidak tersedia di lingkungan penyusunan: pub get, analyze,
-  build, runtime dan screenshot asli **belum diverifikasi**.
-- setup.ps1 juga belum dieksekusi di Windows; baca output jika ada kegagalan.
-- UI mockup adalah rancangan, bukan bukti aplikasi sudah berjalan.
-
-## Checklist sebelum pengumpulan
-- Jalankan setup dan aplikasi, catat flutter --version dan flutter analyze.
-- Uji kategori, pencarian Arrabiata, hasil kosong, detail, kembali, offline/retry.
-- Periksa layar sempit dan teks besar; screenshot tiga halaman asli.
-- Lengkapi NIM, kelas, logo, hasil pengujian dan screenshot di laporan.
-- Upload folder rasa_app lengkap hasil setup ke GitHub, bukan hanya folder Rasa.
-- Upload PDF final ke Google Drive dan kumpulkan kedua link.
+Memerlukan internet. Isi resep mengikuti bahasa sumber API, terutama bahasa Inggris. Kode saat ini belum menerapkan Shared Preferences, SQLite, atau penyimpanan file; folder platform yang tersedia di repository adalah web.

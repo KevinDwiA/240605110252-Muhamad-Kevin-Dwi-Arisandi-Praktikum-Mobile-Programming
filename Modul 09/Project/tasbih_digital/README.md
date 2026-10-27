@@ -1,17 +1,38 @@
 # tasbih_digital
 
-A new Flutter project.
+**Nama:** Muhamad Kevin Dwi Arisandi  
+**NIM:** 240605110252  
+**Mata kuliah:** Praktikum Mobile Programming  
+**Materi:** Modul 09
 
-## Getting Started
+## Deskripsi
 
-This project is a starting point for a Flutter application.
+Aplikasi tasbih digital dengan penghitung maksimal 33, tombol fingerprint untuk menambah hitungan, dan tombol reset. setState memperbarui hitungan, sedangkan ValueNotifier menggerakkan SimpleCircularProgressBar.
 
-A few resources to get you started if this is your first Flutter project:
+## Package dan aset
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Dependency tambahan: `simple_circular_progress_bar ^1.0.2`, `cupertino_icons ^1.0.8`.
+- Aset pubspec: tidak ada aset khusus yang dideklarasikan.
+- Batas versi Dart SDK: `^3.13.2`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur penting
+
+- [lib/main.dart](lib/main.dart)
+
+Folder yang tersedia: `lib/`, `test/`, `android/`, `ios/`, `web/`, `windows/`, `linux/`, `macos/`.
+
+## Menjalankan
+
+Buka terminal di folder project ini, yaitu folder yang berisi `pubspec.yaml`, kemudian jalankan:
+
+```bash
+flutter pub get
+flutter devices
+flutter run -t lib/main.dart
+```
+
+Pilih perangkat yang sesuai dengan folder platform yang tersedia dan gunakan Flutter SDK yang memenuhi batas versi Dart pada `pubspec.yaml`.
+
+## Batasan
+
+Hitungan tidak disimpan setelah aplikasi ditutup. Teks di tengah lingkaran dihitung dari persentase yang dibagi 3, sehingga pada beberapa nilai dapat berbeda dari penghitung di atas.

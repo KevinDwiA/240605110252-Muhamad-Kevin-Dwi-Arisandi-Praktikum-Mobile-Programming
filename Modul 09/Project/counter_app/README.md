@@ -1,17 +1,38 @@
 # counter_app
 
-A new Flutter project.
+**Nama:** Muhamad Kevin Dwi Arisandi  
+**NIM:** 240605110252  
+**Mata kuliah:** Praktikum Mobile Programming  
+**Materi:** Modul 09
 
-## Getting Started
+## Deskripsi
 
-This project is a starting point for a Flutter application.
+Demonstrasi StatefulWidget dan setState melalui tombol Like. Jumlah awal 10 berubah menjadi 11 saat disukai, lalu kembali 10 ketika status suka dibatalkan.
 
-A few resources to get you started if this is your first Flutter project:
+## Package dan aset
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Dependency tambahan: `cupertino_icons ^1.0.8`.
+- Aset pubspec: tidak ada aset khusus yang dideklarasikan.
+- Batas versi Dart SDK: `^3.13.2`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur penting
+
+- [lib/main.dart](lib/main.dart)
+
+Folder yang tersedia: `lib/`, `test/`, `android/`, `ios/`, `web/`, `windows/`, `linux/`, `macos/`.
+
+## Menjalankan
+
+Buka terminal di folder project ini, yaitu folder yang berisi `pubspec.yaml`, kemudian jalankan:
+
+```bash
+flutter pub get
+flutter devices
+flutter run -t lib/main.dart
+```
+
+Pilih perangkat yang sesuai dengan folder platform yang tersedia dan gunakan Flutter SDK yang memenuhi batas versi Dart pada `pubspec.yaml`.
+
+## Batasan
+
+Status suka disimpan di memori selama aplikasi berjalan dan tidak dipersistenkan.
