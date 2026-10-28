@@ -1,11 +1,11 @@
-# Flutter / Dart generated files
+# Hasil build dan cache Flutter
 **/build/
 **/.dart_tool/
 **/.flutter-plugins
 **/.flutter-plugins-dependencies
 **/.packages
 **/coverage/
-# Local IDE and platform caches
+# Pengaturan editor dan file sementara
 **/.idea/
 **/*.iml
 **/.gradle/
@@ -14,11 +14,11 @@
 **/.symlinks/
 **/Flutter/ephemeral/
 **/flutter/ephemeral/
-# Local signing and secrets
+# File konfigurasi pribadi dan penandatanganan
 **/key.properties
 **/*.jks
 **/*.keystore
 **/.env
-# OS files
+# File bawaan sistem operasi
 .DS_Store
 Thumbs.db

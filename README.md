@@ -5,7 +5,7 @@
 **Program Studi:** Teknik Informatika  
 **Universitas:** UIN Maulana Malik Ibrahim Malang
 
-Repository pengumpulan project Flutter dan Dart beserta laporan praktikum Mobile Programming.
+Kumpulan project Flutter dan Dart beserta laporan untuk praktikum Mobile Programming.
 
 ## Daftar modul
 
@@ -51,7 +51,7 @@ Dari folder utama repository, jalankan:
 ```bash
 git status
 git add .
-git commit -m "Perbarui hasil praktikum"
+git commit -m "Update tugas praktikum"
 git push origin main
 ```
 
