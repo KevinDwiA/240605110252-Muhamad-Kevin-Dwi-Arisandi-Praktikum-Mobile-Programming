@@ -1,4 +1,6 @@
-# pengujian
+# Program Pertamaku
+
+**Nama project:** `pengujian`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

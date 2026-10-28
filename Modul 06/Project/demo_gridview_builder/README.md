@@ -1,4 +1,6 @@
-# demo_gridview_builder
+# Daftar Berita dengan GridView.builder
+
+**Nama project:** `demo_gridview_builder`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

@@ -1,4 +1,6 @@
-# tasbih_getx
+# Tasbih Digital dengan GetX
+
+**Nama project:** `tasbih_getx`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

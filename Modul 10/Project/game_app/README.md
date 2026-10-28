@@ -1,4 +1,6 @@
-# game_app
+# Katalog Game
+
+**Nama project:** `game_app`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

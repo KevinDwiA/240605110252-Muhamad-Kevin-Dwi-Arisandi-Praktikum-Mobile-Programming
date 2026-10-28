@@ -1,4 +1,6 @@
-# demo_navigasi
+# Latihan Navigasi Halaman
+
+**Nama project:** `demo_navigasi`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

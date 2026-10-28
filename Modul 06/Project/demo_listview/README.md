@@ -1,4 +1,6 @@
-# demo_listview
+# Menu Kuliah dengan ListView
+
+**Nama project:** `demo_listview`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

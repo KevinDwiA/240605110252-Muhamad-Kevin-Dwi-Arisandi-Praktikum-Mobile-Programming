@@ -1,4 +1,6 @@
-# row_and_column
+# Latihan Row dan Column
+
+**Nama project:** `row_and_column`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

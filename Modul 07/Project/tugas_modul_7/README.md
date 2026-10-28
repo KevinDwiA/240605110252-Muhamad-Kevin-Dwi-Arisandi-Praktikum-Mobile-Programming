@@ -1,4 +1,6 @@
-# tugas_modul_7
+# Tugas Navigasi Dua Halaman
+
+**Nama project:** `tugas_modul_7`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

@@ -1,4 +1,6 @@
-# demo_gridview
+# Menu Kuliah dengan GridView
+
+**Nama project:** `demo_gridview`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

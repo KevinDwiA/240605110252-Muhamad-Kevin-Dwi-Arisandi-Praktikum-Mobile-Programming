@@ -1,4 +1,6 @@
-# tasbih_digital
+# Tasbih Digital
+
+**Nama project:** `tasbih_digital`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

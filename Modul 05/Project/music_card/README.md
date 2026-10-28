@@ -1,4 +1,6 @@
-# music_card
+# Kartu Musik
+
+**Nama project:** `music_card`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

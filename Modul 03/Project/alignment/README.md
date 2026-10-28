@@ -1,4 +1,6 @@
-# alignment
+# Latihan Alignment
+
+**Nama project:** `alignment`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

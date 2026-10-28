@@ -1,4 +1,6 @@
-# demo_sizedbox
+# Latihan SizedBox dan Spacer
+
+**Nama project:** `demo_sizedbox`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

@@ -1,4 +1,6 @@
-# demo_navigasi_namedroute
+# Navigasi Detail Game
+
+**Nama project:** `demo_navigasi_namedroute`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

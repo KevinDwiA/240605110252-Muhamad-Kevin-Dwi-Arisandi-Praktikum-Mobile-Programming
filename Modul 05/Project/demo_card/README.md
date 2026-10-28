@@ -1,4 +1,6 @@
-# demo_card
+# Kartu Informasi Lokasi
+
+**Nama project:** `demo_card`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  

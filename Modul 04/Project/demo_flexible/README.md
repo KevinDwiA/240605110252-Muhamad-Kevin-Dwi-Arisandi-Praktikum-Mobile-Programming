@@ -1,4 +1,6 @@
-# demo_flexible
+# Control Bar Pemutar Musik
+
+**Nama project:** `demo_flexible`
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  
