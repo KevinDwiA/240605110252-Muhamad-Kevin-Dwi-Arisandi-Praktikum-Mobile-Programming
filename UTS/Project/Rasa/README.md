@@ -1,4 +1,4 @@
-# Rasa
+# Rasa - Aplikasi Resep Makanan
 
 **Nama:** Muhamad Kevin Dwi Arisandi  
 **NIM:** 240605110252  
