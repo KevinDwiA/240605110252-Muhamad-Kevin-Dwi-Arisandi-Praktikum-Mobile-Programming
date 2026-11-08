@@ -1,0 +1,14 @@
+name: flutter_crud_api
+description: Praktikum Modul XIII - Operasi CRUD Flutter dengan REST API.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  intl: ^0.18.1
+  google_fonts: ^6.1.0
+flutter:
+  uses-material-design: true
