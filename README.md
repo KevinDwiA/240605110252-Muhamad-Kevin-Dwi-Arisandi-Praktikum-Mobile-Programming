@@ -9,7 +9,7 @@ Kumpulan project Flutter dan Dart beserta laporan untuk praktikum Mobile Program
 
 ## Daftar modul
 
-Kode sumber untuk **20 project** dan laporan PDF Modul 01–11 serta UTS telah diunggah. Tautan berikut mengarah ke project dan laporan yang tersedia di repository.
+Kode sumber untuk **22 project** dan laporan PDF Modul 01–13 serta UTS telah diunggah. Tautan berikut mengarah ke project dan laporan yang tersedia di repository.
 
 | Materi | Topik | Project | Laporan | Status unggahan |
 |---|---|---|---|---|
@@ -24,6 +24,8 @@ Kode sumber untuk **20 project** dan laporan PDF Modul 01–11 serta UTS telah d
 | [Modul 09](Modul%2009/) | StatefulWidget dan setState | [counter_app](Modul%2009/Project/counter_app/), [tasbih_digital](Modul%2009/Project/tasbih_digital/) | [PDF](Modul%2009/Laporan_Praktikum_Modul_9_Kevin.pdf) | Project dan laporan diunggah |
 | [Modul 10](Modul%2010/) | HTTP API dan Model Data | [game_app](Modul%2010/Project/game_app/) | [PDF](Modul%2010/Laporan_Praktikum_Modul_10_Kevin.pdf) | Project dan laporan diunggah |
 | [Modul 11](Modul%2011/) | Manajemen State GetX | [tasbih_getx](Modul%2011/Project/tasbih_getx/) | [PDF](Modul%2011/Laporan_Praktikum_Modul_11_Kevin.pdf) | Project dan laporan diunggah |
+| [Modul 12](Modul%2012/) | GPS dan Reverse Geocoding | [lokasi_flutter](Modul%2012/Project/lokasi_flutter/) | [PDF](Modul%2012/Laporan_Praktikum_Modul_12_Kevin.pdf) | Project dan laporan diunggah |
+| [Modul 13](Modul%2013/) | CRUD Flutter dengan REST API | [flutter_crud_api](Modul%2013/Project/flutter_crud_api/) | [PDF](Modul%2013/Laporan_Praktikum_Modul_13_Kevin.pdf) | Project dan laporan diunggah |
 | [UTS](UTS/) | Rasa — Penjelajah Resep | [Rasa](UTS/Project/Rasa/) | [PDF](UTS/Laporan_UTS_Rasa_Kevin.pdf) | Project dan laporan diunggah |
 
 ## Susunan repository
